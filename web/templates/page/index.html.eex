@@ -1,0 +1,42 @@
+<div class="row">
+  <div class="medium-6 medium-push-3 columns">
+    <img src="images/Logo_500px_wd.png" alt="StoneDust Technology Inc." />
+  </div>
+</div>
+<section class="row">
+  <div class="medium-7 medium-push-2 columns">
+    <h3 class="">Quality Software</h3>
+    <p>
+      Handcrafted web solutions using robust and highly scalable frameworks resulting in the best next generation software on a solid foundation.
+    </p>
+  </div>
+</section>
+<section class="row">
+  <div class="medium-6 medium-push-5 columns">
+    <h3>Consulting</h3>
+    <p>
+      Detail oriented systems review with a solution based focus ensuring high quality products based on your needs.
+    </p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="medium-6 medium-push-2 columns">
+    <h3 class="">Elegance is Simplicity</h3>
+    <p>
+      Clean and responsive with professional branding. Our expert advice helps you get your point across.
+    </p>
+  </div>
+</section>
+
+<section class="row footer">
+  <div class="medium-6 medium-push-5 columns">
+    <h4 class="">Contact</h4>
+    <ul class="no-bullet">
+      <li><a href="mailto:info@stondust.ca">info@stonedust.ca</a></li>
+      <li>Vancouver, BC</li>
+      <li>Canada</li>
+      <li>&copy; Stone Dust Technology Inc. 2015</li>
+    </ul>
+  </div>
+</section>

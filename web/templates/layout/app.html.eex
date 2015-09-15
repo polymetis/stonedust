@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>StoneDust</title>
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/normalize.css") %>">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/foundation.css") %>">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <script src="<%= static_path(@conn, "/js/vendor/modernizr.js") %>"></script>
+
+  </head>
+
+  <body>
+    <div class="" role="">
+
+
+      <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
+      <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+
+      <%= @inner %>
+
+    </div> <!-- /container -->
+    <script src="<%= static_path(@conn, "/js/vendor/jquery.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/foundation.min.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
