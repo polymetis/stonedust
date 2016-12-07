@@ -1,0 +1,27 @@
+
+$stone-dark: #3a2d2d;
+$stone-rust: #7c5e5e;
+$stone-grey: #d6d1d1;
+
+body {
+  background-color: $stone-grey;
+  font-family: courier, serif;
+  color: $stone-rust;
+}
+
+body header {
+  font-family: futura, sans-serif;
+}
+
+body h1, h2, h3, h4, h5 {
+  font-family: futura, sans-serif;
+  color: $stone-dark;
+}
+
+section.row {
+  margin-top: 40px;
+}
+
+section.row.footer {
+  margin-top: 80px;
+}
